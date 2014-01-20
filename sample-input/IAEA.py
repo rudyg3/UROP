@@ -4,3 +4,12 @@
 # x = 30 and x = 50 and y = 30 and y = 50. For the layer (280-360), everything is the same
 # as the top-down view, but there is a control rod (3) again between x = 30 and x = 50 
 # and y = 30 and y = 50. 
+
+import os
+import sys
+sys.path.insert(0, os.getcwd() + '/../src')
+import numpy as np
+import matplotlib.pyplot as plt
+import Nuclear as nuke
+import Mesh
+from Solver import Solver

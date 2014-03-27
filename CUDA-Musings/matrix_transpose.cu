@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../common/book.h"
+#include "../../common/book.h"
 
 const int ROWS = 3000;
 const int COLS = 2000;
@@ -69,6 +69,10 @@ int main( void ) {
   }
 
  
+  cudaFree( Aptr );
+  cudaFree( Tptr );
+  free( A );
+  free( T );
 
   return 0;
 }

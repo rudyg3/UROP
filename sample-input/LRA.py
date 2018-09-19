@@ -8,7 +8,7 @@ import Mesh
 from Solver import Solver
 
 #This should be the only file where things are hardcoded
-
+# Hi past me
 mesh = Mesh.Mesh([15.0] * 11, [15.0] * 11, [30.0, 300.0, 30.0], 2)
 
 #############################
